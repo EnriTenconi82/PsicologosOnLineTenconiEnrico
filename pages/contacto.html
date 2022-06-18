@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="icon" type="image/x-icon" href="../img/logo.ico" sizes="64x64">
+    <title>Psicologos On Line Rosario - Contacto</title>
+</head>
+<body class="grid">
+    <header class="headerSection barsBg">
+        <h1 class="headerTitle">Psicologos on line Rosario</h1></li>
+    </header>
+    <nav class="menuContainer barsBg">
+        <a href="../index.html"> <img class="logo" src="../img/logo.svg" alt="logo Psicologos Rosario"></a></li>
+        <ul class="menu"> 
+            <li><a href="../index.html" >Inicio</a></li>
+            <li><a href="../pages/terapias.html">Sobre la terapia</a></li>
+            <li><a href="../pages/servicios.html">Servicio y tarifas</a></li>
+            <li><a href="../pages/equipo.html">Equipo</a></li>
+            <li><a href="../pages/contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+    <main>
+        <article class="articleBg">
+        <h1>Formulario de contacto para consulta</h1 tag="psicologos on line rosario argentina">
+
+        <form class="flex card cardBg" action="contacts.php" method="post">
+            <fieldset class="flexForm">
+                <legend>Datos Personales</legend>
+                <div class="formBlock">
+                    <label for="nombre">Nombre </label ><!--datos personas-->
+                    <input type="text" id="nombre" placeholder="Nombre" required>
+                </div>
+                <div class="formBlock">
+                    <label for="apellido">Apellido</label>
+                    <input type="text" id="apellido" placeholder="Apellido" required>
+                </div>
+                <div class="formBlock">
+                    <label for="celular">Celular </label>
+                    <input type="text" id="celular" placeholder="0341123456" required>  
+                </div>
+                <div class="formBlock">
+                    <label for="mail">Mail</label>
+                    <input type="email"id="mail" placeholder="example@example.com" required>
+                </div>
+                <div class="formBlock">
+                    <label  for="obrasocial">Obra social</label>
+                    <select class="cardBg" name="obrasocial" required>
+                        <option value="gal">Galeno</option>
+                        <option value="osd">Osde</option>
+                        <option value="pam">Pami</option>
+                        <option value="otro">Otro</option>
+                    </select>
+                </div>
+            
+            </fieldset>
+            
+            <fieldset class="flexForm">
+                <legend>Datos de consulta</legend>
+                <div class="formBlock">
+                    <span class="labelRadio">Tipo de consulta</span>
+                        <div>
+                            <div>
+                                <input type="radio"  required id="html" name="consulta" value="virtual">
+                                <label class="radioLabelSub" for="virtual">Virtual</label>
+                            </div>
+                            <div>
+                                <input type="radio"  required id="consulta" name="consulta" value="presencial">
+                                <label class="radioLabelSub" for="presencial">Presencial</label>
+                            </div>    
+                        </div>
+                </div>                
+
+                    
+
+                        <div class="formBlock">
+                            <label  for="modalidadrespuesta">Modalidad de Respuesta</label>
+                            <select class="cardBg" name="modalidadrespuesta"  required>
+                                <option value="Mail">Mail</option>
+                                <option value="Whastapp">Whatsapp</option>
+                        <option value="llamada">Llamada</option>
+                    </select>
+                </div>
+            
+                <div class="formBlock">
+                    <label for="mensaje">Deje su mensaje</label>
+                    <textarea placeholder="Escriba su mensaje" name="" id="mensaje" cols="auto" rows="10"></textarea>
+                </div>
+            </fieldset>
+            <div class="buttonBlock">
+                <input class="button barsBg" type="Submit" name="" id="">
+                <button class="button barsBg" type="reset" value="Reset">Borrar</button>
+            </div>     
+            
+        </form> 
+    </article>   
+</main>
+    
+    <footer class="footerSection barsBg">
+        <nav>
+            <ul> 
+                <li>Nuestras redes sociales:</li>
+                <li><a href="#"><img class="iconImg" src="../img/fb.png" alt="facebook"></a></li>
+                <li><a href="#"><img class="iconImg" src="../img/ig.png" alt="instragram"></a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>
