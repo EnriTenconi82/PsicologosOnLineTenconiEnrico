@@ -1,5 +1,6 @@
 /* HTML RESECT */
 
+
 /*fonts externas*/
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap');
 
@@ -234,6 +235,7 @@ article{
 /* images sizes positionings global*/
 .logo{
     height: 10em;
+    padding: 1rem;
     vertical-align: middle;
 }
 
@@ -486,9 +488,9 @@ form .button:hover{
         height: max-content;
         display: flex;
         flex-direction: row-reverse;
-        align-items: flex-start;
+        align-items: stretch;
         position: sticky;
-        justify-content: center;        
+        justify-content: space-evenly;        
         top:0px;
         grid-column: 1/2;
         grid-row: 2/3;
@@ -506,11 +508,14 @@ form .button:hover{
         padding: 0;
     }
     .menu{
+        column-gap: 0rem;
         row-gap: 0rem;
+        align-items: center;
+
     }
 
     .menu li {
-        width: fit-content;
+        width: max-content;
     }
 
     .menu li a{
