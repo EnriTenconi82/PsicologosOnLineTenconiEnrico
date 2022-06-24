@@ -322,6 +322,11 @@ display: block;
     animation-duration: 1s;
 }
 
+.figBenefits:active{
+    animation-name: smalling;
+    animation-duration: 1s;
+}
+
 /* CSS servicios.html */
 .imgProceso{
     width: 300px;
@@ -545,10 +550,7 @@ form .button:hover{
         text-align: center;
         margin: 0 auto;
     }
-    .figBenefits:active{
-        animation-name: smalling;
-        animation-duration: 1s;
-    }
+
 
 }       
 
