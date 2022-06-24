@@ -545,6 +545,10 @@ form .button:hover{
         text-align: center;
         margin: 0 auto;
     }
+    .figBenefits:active{
+        animation-name: smalling;
+        animation-duration: 1s;
+    }
 
 }       
 
