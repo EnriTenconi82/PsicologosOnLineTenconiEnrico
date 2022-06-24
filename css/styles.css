@@ -272,6 +272,7 @@ article{
 
 .menu li a:hover{
     background-color: var(--button-hover);
+    transition: 0.2s;
 }
 
 header ul li {
